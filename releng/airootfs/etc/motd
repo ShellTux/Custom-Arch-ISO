@@ -1,0 +1,6 @@
+Installation_guide:
+https://wiki.archlinux.org/title/Installation_guide
+
+For wifi: iwctl utility.
+
+There is also a installation script: archinstall
