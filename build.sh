@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo rm --verbose --recursive --force ./output
+sudo rm --recursive --force ./output
 mkdir --verbose --parents ./pre-build
 $EDITOR ./pre-build.sh
 
