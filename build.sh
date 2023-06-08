@@ -7,6 +7,6 @@ sudo mkdir --verbose --parents ./output
 sudo chown root:"$(whoami)"
 sudo mkarchiso -v -w ./output -o ./output releng
 
-mv ./output/*.iso .
-sudo rm -rf ./output
+mv --verbose ./output/*.iso .
+sudo rm --verbose --recursive --force ./output
 find . -name "*.iso" | head -1 | xargs run_archiso -i
