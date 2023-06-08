@@ -7,3 +7,4 @@
 
 !/releng
 !/build.sh
+!/pre-build.sh
